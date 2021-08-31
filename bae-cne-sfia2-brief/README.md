@@ -89,4 +89,4 @@ The **Minimum Viable Product** for this project should at least demonstrate the 
 
 ![mvp-diagram](https://i.gyazo.com/f5cd176c4f440af639b7dc3c098535c7.png)
 
-**Good luck!**
+
