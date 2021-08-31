@@ -19,3 +19,5 @@ class TestViews(TestBase):
             response = self.client.get(url_for('get_users'))
             self.assertEqual(response.status_code, 200)
 
+
+
