@@ -22,7 +22,8 @@ pipeline {
 	}
 	stage ('Push') {
 	    steps {
-		sh 'cd bae-cne-sfia2-brief && docker-compose push'
+		sh 'cd bae-cne-sfia2-brief/backend && docker-compose push'
+		sh 'cd bae-cne-sfia2-brief/frontend && docker-compose push'
 	    }
 	}
     
