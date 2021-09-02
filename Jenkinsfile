@@ -40,7 +40,7 @@ pipeline {
     }
 	stage ('Deploy') {
 	    steps {
-		sh 'cd bae-cne-sfia2-brief && docker stack deploy --compose-file docker-compose.yaml project-stack'
+		 docker stack deploy --compose-file docker-compose.yaml project-stack'
 	    }
 	}
     }
