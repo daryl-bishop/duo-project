@@ -10,15 +10,14 @@ pipeline {
 	stage ('Testing') {
 	    steps {
 		sh 'pwd'
-		sh 'pip3 install -r bae-cne-sfia2-brief/frontend/requirements.txt'
-		sh 'cd bae-cne-sfia2-brief/frontend && python3 -m pytest --cov application'
-		sh 'pip3 install -r bae-cne-sfia2-brief/backend/requirements.txt'
-		sh 'cd bae-cne-sfia2-brief/backend && python3 -m pytest --cov application'
+		sh 'pip3 install -r frontend/requirements.txt'
+		sh 'cd frontend && python3 -m pytest --cov application'
+		sh 'pip3 install -r backend/requirements.txt'
+		sh 'cd backend && python3 -m pytest --cov application'
 	    }
 	}
 	stage ('Build') {	    
 	   steps {
-		sh 'cd bae-cne-sfia2-brief'
 		script {
                     if (env.changes == 'true'){
                         frontimage = docker.build("daryl7817/frontend")
