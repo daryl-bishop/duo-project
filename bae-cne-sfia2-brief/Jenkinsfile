@@ -22,12 +22,13 @@ pipeline {
 	}
 	stage ('Push') {
 	    steps {
-                docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
-                image.push("latest")
+		script {
+			docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
+                	image.push("latest")
 		    }
 		}
 	    }
-
+	}
     
 	stage ('Deploy') {
 	    steps {
