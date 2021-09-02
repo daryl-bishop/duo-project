@@ -18,25 +18,13 @@ pipeline {
 	}
 	stage ('Build') {	    
 	   steps {
-		script {
-                    if (env.changes == 'true'){
-                        frontimage = docker.build("daryl7817/frontend")
-			backimage = docker.build("daryl7817/backend")
-			    }
-		      }
+		sh 'docker-compose build' 
      	         }	
 	 }
 	stage ('Push') {
 	    steps {
-		script {
-		    if (env.changes == 'true'){
-                	docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
-                            frontimage.push("latest")
-			    backimage.push("latest")
-		    }
-		}
-	    }
-	}
+		sh 'docker-compose push'
+	    	}
     }
 	stage ('Deploy') {
 	    steps {
