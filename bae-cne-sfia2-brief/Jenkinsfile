@@ -9,6 +9,7 @@ pipeline {
     stages {
 	stage ('Testing') {
 	    steps {
+		sh 'pwd'
 		sh 'pip3 install -r frontend/requirements.txt'
 		sh 'cd frontend && python3 -m pytest --cov application'
 		sh 'pip3 install -r backend/requirements.txt'
