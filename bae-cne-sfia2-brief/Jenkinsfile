@@ -17,21 +17,18 @@ pipeline {
 	    }
 	}
 	stage ('Build') {	    steps {
-		sh 'cd bae-cne-sfia2-brief && docker-compose build'
+		sh 'cd bae-cne-sfia2-brief && image = docker-compose build'
 	    }
 	}
 	stage ('Push') {
 	    steps {
-		script {
-		    if (env.changes == 'true'){
-                	docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
-                            frontend.push("latest")
-			    backend.push("latest")
+                docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
+                image.push("latest")
 		    }
 		}
 	    }
-	}
-    }
+
+    
 	stage ('Deploy') {
 	    steps {
 		sh 'cd bae-cne-sfia2-brief && docker stack deploy --compose-file docker-compose.yaml project-stack'
