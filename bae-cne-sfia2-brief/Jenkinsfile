@@ -19,7 +19,7 @@ pipeline {
 	stage ('Build') {	    
 	   steps {
 		sh 'cd bae-cne-sfia2-brief'
-		script{
+		script {
                     if (env.changes == 'true'){
                         frontimage = docker.build("daryl7817/frontend")
 			backimage = docker.build("daryl7817/backend")
