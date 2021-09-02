@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1630497812,,"wq"
+|2,0,1630572620,,"wq"
 :q
 |2,0,1630497443,,"q"
 :q!
@@ -61,30 +61,84 @@
 |3,0,36,0,1,0,1630490007,"services:"
 
 # File marks:
-'0  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,48,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'1  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,49,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'2  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,50,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
-'3  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
-|4,51,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
-'4  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,52,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
-'5  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,53,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
-'6  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,54,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
-'7  11  15  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,55,11,15,1630493790,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'8  11  15  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,56,11,15,1630493790,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'9  2  81  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,57,2,81,1630493468,"~/bae-cne-sfia2-brief/database/Dockerfile"
+'0  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,48,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+'1  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,49,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
+'2  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,50,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
+'3  42  2  ~/bae-cne-sfia2-brief/jenkins-install
+|4,51,42,2,1630511018,"~/bae-cne-sfia2-brief/jenkins-install"
+'4  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,52,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+'5  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,53,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+'6  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,54,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+'7  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,55,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+'8  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
+|4,56,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
+'9  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,57,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
 
 # Jumplist (newest first):
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  1  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,1,0,1630511911,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  1  0  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,1,0,1630511911,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  42  2  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,42,2,1630511018,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  42  2  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,42,2,1630511018,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  42  2  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,42,2,1630511018,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  42  2  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,42,2,1630511018,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  1  0  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,1,0,1630511005,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  1  0  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,1,0,1630511005,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  1  0  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,1,0,1630511005,"~/bae-cne-sfia2-brief/jenkins-install"
+-'  1  0  ~/bae-cne-sfia2-brief/jenkins-install
+|4,39,1,0,1630511005,"~/bae-cne-sfia2-brief/jenkins-install"
 -'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
 |4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497812,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  11  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
 |4,39,11,34,1630497533,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
@@ -95,6 +149,62 @@
 |4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
 -'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
 |4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  2  18  ~/bae-cne-sfia2-brief/database/Dockerfile
+|4,39,2,18,1630497473,"~/bae-cne-sfia2-brief/database/Dockerfile"
 -'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
 |4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
 -'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
@@ -111,180 +221,93 @@
 |4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
 -'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
 |4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  5  30  ~/bae-cne-sfia2-brief/backend/Dockerfile
-|4,39,5,30,1630497405,"~/bae-cne-sfia2-brief/backend/Dockerfile"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  7  77  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,7,77,1630497389,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  1  0  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,39,1,0,1630497228,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
--'  3  8  ~/bae-cne-sfia2-brief/database/Dockerfile
-|4,39,3,8,1630497201,"~/bae-cne-sfia2-brief/database/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
+-'  6  0  ~/bae-cne-sfia2-brief/frontend/Dockerfile
+|4,39,6,0,1630497443,"~/bae-cne-sfia2-brief/frontend/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/bae-cne-sfia2-brief/Jenkinsfile
+	*	1630572619	0
+	"	28	29
+	^	28	30
+	.	28	29
+	+	42	0
+	+	10	0
+	+	25	0
+	+	4	1
+	+	23	6
+	+	24	0
+	+	36	0
+	+	4	43
+	+	5	15
+	+	28	29
+
+> ~/bae-cne-sfia2-brief/jenkins-install
+	*	1630511017	0
+	"	42	2
+	^	42	3
+	.	42	2
+	+	42	2
 
 > ~/bae-cne-sfia2-brief/docker-compose.yaml
 	*	1630497810	0
