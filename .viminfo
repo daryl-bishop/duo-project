@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1630578556,,"wq"
+|2,0,1630580525,,"wq"
 :q
 |2,0,1630497443,,"q"
 :q!
@@ -61,28 +61,32 @@
 |3,0,36,0,1,0,1630490007,"services:"
 
 # File marks:
-'0  4  27  ~/.gitignore
-|4,48,4,27,1630578556,"~/.gitignore"
-'1  4  3  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,49,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'2  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
-|4,50,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
-'3  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
-|4,51,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
-'4  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,52,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
-'5  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,53,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
-'6  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,54,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
-'7  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,55,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
+'0  2  11  ~/.gitignore
+|4,48,2,11,1630580525,"~/.gitignore"
+'1  1  66  ~/.gitignore
+|4,49,1,66,1630578556,"~/.gitignore"
+'2  4  27  ~/.gitignore
+|4,50,4,27,1630578556,"~/.gitignore"
+'3  4  3  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,51,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+'4  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,52,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+'5  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,53,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+'6  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,54,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+'7  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,55,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
 '8  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
 |4,56,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
 '9  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
 |4,57,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
 
 # Jumplist (newest first):
+-'  2  11  ~/.gitignore
+|4,39,2,11,1630580525,"~/.gitignore"
+-'  1  66  ~/.gitignore
+|4,39,1,66,1630580501,"~/.gitignore"
 -'  4  27  ~/.gitignore
 |4,39,4,27,1630578556,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -91,6 +95,10 @@
 |4,39,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  4  3  ~/bae-cne-sfia2-brief/docker-compose.yaml
 |4,39,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  4  3  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  4  3  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,3,1630577226,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
 |4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
 -'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
@@ -99,6 +107,22 @@
 |4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
 -'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
 |4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+-'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+-'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+-'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+-'  7  78  ~/bae-cne-sfia2-brief/backend/application/__init__.py
+|4,39,7,78,1630577086,"~/bae-cne-sfia2-brief/backend/application/__init__.py"
+-'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
 |4,39,4,23,1630576939,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  4  23  ~/bae-cne-sfia2-brief/docker-compose.yaml
@@ -119,6 +143,50 @@
 |4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
 -'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
 |4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  10  34  ~/bae-cne-sfia2-brief/docker-compose.yaml
+|4,39,10,34,1630576828,"~/bae-cne-sfia2-brief/docker-compose.yaml"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
 -'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
 |4,39,28,29,1630575475,"~/bae-cne-sfia2-brief/Jenkinsfile"
 -'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
@@ -183,115 +251,48 @@
 |4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
 -'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
 |4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630572098,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  4  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,4,0,1630512738,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  1  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,1,0,1630511911,"~/bae-cne-sfia2-brief/Jenkinsfile"
--'  1  0  ~/bae-cne-sfia2-brief/Jenkinsfile
-|4,39,1,0,1630511911,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
+-'  28  29  ~/bae-cne-sfia2-brief/Jenkinsfile
+|4,39,28,29,1630572620,"~/bae-cne-sfia2-brief/Jenkinsfile"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1630578555	0
-	"	4	27
-	^	4	28
-	.	4	24
-	+	4	24
+	*	1630580524	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	1	39
+	+	2	11
 
 > ~/bae-cne-sfia2-brief/docker-compose.yaml
 	*	1630577222	0
