@@ -235,3 +235,59 @@ touch Jenkinsfile
 vin Jenkinsfile
 vim Jenkinsfile
 exit
+login credentials
+docker login
+ls
+cd bae-cne-sfia2-brief/
+ls
+vim Jenkinsfile 
+cd ..
+git checkout dev
+git checkout
+git checkout -b jenkins
+git push origin jenkins
+git add .
+git commit -m "DP-7 #comment jenkinsfile"
+git push origin jenkins
+sudo su - jenkins
+ls
+su - jenkins
+sudo su - jenkins
+sudo visudo
+sudo usermod -G sudo jenkins
+cd bae-cne-sfia2-brief/
+ls
+vim Jenkinsfile 
+sudo visudo
+cd ..
+sudo su - jenkins
+docker stack services stack-project
+docker stack services project-stack
+curl localhost
+docker service logs project-stack_backend
+docker stack services project-stack
+ls
+cd bae-cne-sfia2-brief/
+ls
+vim docker-compose.yaml 
+ls
+cd backend
+ls
+cd application/
+ls
+cat __init__.py
+vim __init__.py
+cd ..
+cd bae-cne-sfia2-brief/
+ls
+docker-compose build
+vim docker-compose.yaml 
+docker-compose build
+docker-compose push
+docker stack deploy --compose-file docker-compose.yaml project-stack
+docker stack services project-stack
+curl localhost
+cat /etc/group
+sudo usermod -aG docker jenkins
+cat /etc/group
+exit

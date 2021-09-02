@@ -3,7 +3,6 @@ services:
   database: 
     image: daryl7817/mysql:latest
     build: ./database
-    container_name: mysql
     ports: 
     - target: 3306
       published: 3306
