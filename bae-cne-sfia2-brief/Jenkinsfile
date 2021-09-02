@@ -17,16 +17,12 @@ pipeline {
 	    }
 	}
 	stage ('Build') {	    steps {
-		sh 'cd bae-cne-sfia2-brief && image = docker-compose build'
+		sh 'cd bae-cne-sfia2-brief && docker-compose build'
 	    }
 	}
 	stage ('Push') {
 	    steps {
-		script {
-			docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
-                	image.push("latest")
-		    }
-		}
+		sh 'cd bae-cne-sfia2-brief && docker-compose push'
 	    }
 	}
     
