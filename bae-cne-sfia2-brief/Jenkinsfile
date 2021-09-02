@@ -25,8 +25,8 @@ pipeline {
 		script {
 		    if (env.changes == 'true'){
                 	docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id'){
-                            frontimage.push("latest")
-			    backimage.push("latest")
+                            frontend.push("latest")
+			    backend.push("latest")
 		    }
 		}
 	    }
