@@ -6,7 +6,6 @@ services:
     ports:
     - target: 3306
       published: 3306
-    environment:
   backend: 
     container_name: backend
     image: daryl7817/backend:latest
