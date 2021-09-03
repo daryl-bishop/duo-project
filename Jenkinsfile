@@ -11,11 +11,17 @@ pipeline {
 	    steps {
 		sh 'pwd'
 		sh 'pip3 install -r frontend/requirements.txt'
-		sh 'cd frontend && python3 -m pytest --cov application'
+		sh 'cd frontend && python3 -m pytest --cov application > front-report.xml'
 		sh 'pip3 install -r backend/requirements.txt'
-		sh 'cd backend && python3 -m pytest --cov application'
+		sh 'cd backend && python3 -m pytest --cov application > back-report.xml'
 	    }
 	}
+	stage ('Artifact') {
+	   steps {
+	        achieveArtifacts artifacts: 'frontend/tests/*.xml, backend/tests/*.xml', fingerprint:true
+		}
+	}	
+
 	stage ('Build') {	    
 	   steps {
 		sh 'docker-compose build' 
