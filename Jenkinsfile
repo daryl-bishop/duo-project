@@ -16,12 +16,7 @@ pipeline {
 		sh 'cd backend && python3 -m pytest --cov application > back-report.xml'
 	    }
 	}
-	stage ('Artifact') {
-	   steps {
-	        achieveArtifacts artifacts: 'frontend/tests/*.xml, backend/tests/*.xml', fingerprint:true
-		}
-	}	
-
+	
 	stage ('Build') {	    
 	   steps {
 		sh 'docker-compose build' 
@@ -38,5 +33,12 @@ pipeline {
 	    }
 	}
     }
-}
+	post {
+        always {
+	    archiveArtifacts artifacts: 'frontend/**/*.xml, backend/**/*.xml', fingerprint: true
+	}
+    }
+
+
+ }
 
