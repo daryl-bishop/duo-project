@@ -1,13 +1,5 @@
 version: "3.8"
 services: 
-  database: 
-    image: daryl7817/mysql:latest
-    build: ./database
-    ports: 
-    - target: 3306
-      published: 3306
-    environment: 
-      MYSQL_ROOT_PASSWORD: password
   backend: 
     container_name: backend
     image: daryl7817/backend:latest
