@@ -4,6 +4,7 @@ pipeline {
 	DOCKER_LOGIN = credentials('dockerhub_id')
 	changes = 'true'	
 	DATABASE_URI = credentials('DATABASE_URI')
+        URL_DB = credentials('URL_DB')
 	SECRET_KEY = credentials('SECRET_KEY')
     }
     stages {
