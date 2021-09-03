@@ -17,7 +17,7 @@ Git - https://github.com/daryl-bishop/duo-project
 
 Risk Assessment - https://qalearning-my.sharepoint.com/:w:/g/personal/ccartwright_qa_com/EQPfMM8loadBhx9vzof7D2MBL9iazYA_z2KcSZcuI811Lw?e=9Sx6KT 
 
-Presentation -  
+Presentation -  https://qalearning-my.sharepoint.com/:p:/g/personal/ccartwright_qa_com/ET4QAdqf_oBHuI3TZsGlj0MBWdG59Ub3Xm1Tm0Q7oIeSbA?e=PW4ZyT
 
 ## Introduction 
 
